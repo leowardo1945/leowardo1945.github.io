@@ -1,0 +1,62 @@
+
+@font-face{
+	font-family: "nothing";
+	src: url("FONTS/Nothing_Much.ttf");
+}
+@font-face{
+	font-family: "mithella";
+	src: url("FONTS/Mithella-Regular.otf");
+}
+#SStomaloserio{
+	width: 40%;
+}
+#sabiasque{
+	font-family: "nothing";
+	color: black;
+}
+div>li:hover{
+		color:#660000;
+}
+div>li{
+	margin: 20px; 
+	color:#0e2a55;
+	text-decoration: underline;
+	font-weight: bold;
+	border:solid #607896;
+	font-size: 100%;
+	font-family: "mithella";
+	padding: 10px;
+}
+ul,ol{
+	position: relative;
+	list-style: none;
+	display: block;
+	text-align: right;
+	font-size: 20px;
+	width: 100%;
+}
+ul>li{
+	display: block;
+}
+li>ul>li>a{
+	display: none;
+	padding: 5px;
+	color:#000000;
+}
+li>ul>li>a:hover{
+	background-color: #607896;
+	color:#ffffff;
+	position: relative;
+}
+div>li:hover {
+	
+	display: block;
+}
+div>li:hover>ul>li>a{
+	display: block;
+	position: relative;.
+	background: #607896;
+}
+nav{
+	float: right;
+}

@@ -1,0 +1,41 @@
+@font-face{
+	font-family: "mithella";
+	src: url("FONTS/Mithella-Regular.otf");
+}
+#boton{
+	position: absolute;
+	display: inline-block;
+	float: right;
+	top:0px;
+	right: 170px;
+}
+#sesion{
+	position: absolute;
+	padding: 15px;
+	border: solid black;
+	margin: 30px 30px;
+	width: 100px;
+	font-size: 17px;
+	font-weight: bold;
+	font-family: "mithella";
+}	
+#manos2{
+	width: 100%;
+}
+article{
+	position: relative;
+	font-size: 20px;
+	width: 25%;
+	height: 250px;
+	margin:20px;
+	padding: 20px;
+	display: inline-table;
+	top: 100%;
+	text-align: center;
+}	
+img.articles{
+	width: 60%;
+}
+.docs{
+	font-size: 22px;
+}

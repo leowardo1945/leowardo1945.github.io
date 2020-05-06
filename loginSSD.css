@@ -1,0 +1,24 @@
+#login{
+	position: relative;
+	text-align: center;
+	display: inline-block;
+	width: 300px;
+	height: 20%;
+	border: 2px solid #8bbabb;
+	margin: 20px;
+	background: #8bbabb;
+	float: center;
+}
+input{
+	position: relative;
+	width: 70%;
+	display: inline-block;
+	text-align: center;
+	margin: 3%;
+	font-size: 18px;
+	border: 2px solid #8bbabb;
+}
+#buttonLogin{
+	border: 2px solid #8bbabb;
+	background: #d0d0d0;
+}

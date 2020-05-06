@@ -1,0 +1,133 @@
+@font-face{
+	font-family: "dream_orphans";
+	src: url("FONTS/dream_orphans.ttf");
+}
+@font-face{
+	font-family: "mithella";
+	src: url("FONTS/Mithella-Regular.otf");
+}
+@font-face{
+	font-family: "philosopher";
+	src: url("FONTS/Philosopher-Regular.ttf");
+}
+@font-face{
+	font-family: "chocolate";
+	src: url("FONTS/CreamyChocolate.ttf");
+	src:local('?'),
+	url("FONTS/CreamyChocolate.otf") format("OpenType");
+}
+
+* {margin:0;padding:0; border:0; outline:none; position: relative;}
+header{
+	background: #0e2a55;
+	text-align: center;
+	height: 20%;
+
+}
+body{
+	text-align: center;
+	background: #f9f3ec;
+	margin: 0px;
+	padding: 0px;
+}
+footer{
+	background: #660000;
+	text-align: center;
+	color: #ffffff;
+}
+div.logos{
+	position: relative;
+	display: inline-block;
+	margin: 20px 20px;
+	margin-bottom: 2px;
+	width: 15%;
+}
+
+#sep{
+	position: relative;
+	float: left;
+}
+#tnm{
+	position: relative;
+	float: right;
+}
+div.titulos{
+	position: relative;
+	display: inline;
+	margin: 10px;
+	text-align: center;
+	padding: 0px;
+	clear:both;
+}
+h1{
+	font-size: 40px;
+	color: #ffffff;
+	font-family: 'dream_orphans';
+	letter-spacing: 3px;
+}
+h2{
+	font-size: 30px;
+	color: #607896;
+	font-family: "mithella";
+}
+img.logo{
+	width: 90%;
+}
+section.arriba{
+	padding: 10px;
+	text-align: center;
+}
+#datos_itsjr{
+	font-size: 15px;
+	margin: 5px 20px;
+	padding: 10px;
+}
+#datos_itsjr>p{
+	font-size: 15px;
+}
+.pequeño{
+	font-size: 20px;
+}
+a.links{
+	color: #fc9;
+	display: list-item;
+}
+p{
+	font-size: 30px;
+	font-family: "mithella";
+}
+.grande{
+	text-align: center;
+}
+.parrafo{
+	font-family: "philosopher";
+	margin: 0px 20px;
+}
+.negrita{
+	font-weight: bold;
+}
+figcaption{
+	font-size: 20px;
+	font-family: "chocolate";
+	font-size: 35px;
+	margin: 20px;
+	color: #660000;
+}
+#textogde{
+	position: relative;
+	width: 50%;
+	display: inline-block;
+	padding: 40px;
+	margin: 5px;
+}
+#derecha{
+	display: inline-block;
+	width: 40%;
+	vertical-align: top;
+}
+section{
+	text-align: center;
+}
+span{
+	font-size: 20px;
+}
